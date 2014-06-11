@@ -1,3 +1,4 @@
 language: perl
 perl: "5.18"
 script: perl Configure.pl --gen-moar --gen-nqp --backends=moar && make
+install: true
